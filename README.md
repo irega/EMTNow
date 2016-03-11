@@ -6,5 +6,7 @@ http://opendata.emtmadrid.es/Formulario.aspx
 
 Una vez realizado ese paso, tendremos acceso a la API de la EMT mediante un usuario y contraseña que hay que actualizar en el código fuente localizado en Comun\Constantes.cs dentro del proyecto:
 
+```c#
 public const string IdClient = "TODO";
 public const string PassKey = "TODO";
+```
