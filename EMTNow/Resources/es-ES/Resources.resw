@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAceptar.Content" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnCancelar.Content" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnConsultarTiempo.Content" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="DestinoText" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="EnParadaText" xml:space="preserve">
+    <value>En parada</value>
+  </data>
+  <data name="FavoritasItem.Header" xml:space="preserve">
+    <value>Favoritas</value>
+  </data>
+  <data name="lblCodigoParada.Text" xml:space="preserve">
+    <value>Código parada</value>
+  </data>
+  <data name="lblNombreParada.Text" xml:space="preserve">
+    <value>Nombre parada</value>
+  </data>
+  <data name="LineaText" xml:space="preserve">
+    <value>Línea</value>
+  </data>
+  <data name="MapaItem.Header" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="MetrosText" xml:space="preserve">
+    <value>metros</value>
+  </data>
+  <data name="MinutosText" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="MinutoText" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="Pivot.Title" xml:space="preserve">
+    <value>EMT Now</value>
+  </data>
+  <data name="TiempoEsperaItem.Header" xml:space="preserve">
+    <value>Tiempo espera</value>
+  </data>
+  <data name="UbicacionActualText" xml:space="preserve">
+    <value>Estás aquí</value>
+  </data>
+  <data name="CompartirErrorText" xml:space="preserve">
+    <value>Compartir error</value>
+  </data>
+  <data name="DetalleErrorText" xml:space="preserve">
+    <value>Detalle del error</value>
+  </data>
+  <data name="EnviarExcepcionAText" xml:space="preserve">
+    <value>Por favor, envía el informe a</value>
+  </data>
+  <data name="InformacionAdicionalText" xml:space="preserve">
+    <value>Información adicional</value>
+  </data>
+  <data name="OcurrioExcepcionText" xml:space="preserve">
+    <value>Ocurrió un error inesperado la última vez que se ejecutó la aplicación, ¿quieres enviar un informe al desarrollador?</value>
+  </data>
+  <data name="TituloExcepcionNoControlada" xml:space="preserve">
+    <value>Excepción no controlada</value>
+  </data>
+  <data name="CancelarText" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="NombreParadaObligatorio" xml:space="preserve">
+    <value>Es necesario indicar un nombre para la parada.</value>
+  </data>
+  <data name="TituloErrorText" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="lblUbicacionDesactivada.Text" xml:space="preserve">
+    <value>Active la ubicación desde la pantalla de configuración del teléfono</value>
+  </data>
+  <data name="AniadirFavoritaCommand" xml:space="preserve">
+    <value>Añadir fav.</value>
+  </data>
+  <data name="EliminarCommand" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="SeleccionarCommand" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="UbicacionActualCommand" xml:space="preserve">
+    <value>Ubicación actual</value>
+  </data>
+  <data name="DescripcionAplicacion" xml:space="preserve">
+    <value>Con EMT Now tendrás al alcance de tu teléfono toda la información relativa al servicio de autobuses de la Empresa Municipal de Transportes de Madrid.
+
+Podrás consultar el tiempo de espera de cada parada, guardar las que más utilices en tu lista de favoritas y localizar las más cercanas a tu ubicación a partir de la función GPS de tu dispositivo.
+
+¡Y todo esto gratis! Para cualquier problema, mejora o sugerencia no dudes en ponerte en contacto conmigo a través de emtnow@outlook.es 
+
+¡Gracias por tu descarga! ;-)</value>
+  </data>
+  <data name="TituloAplicacion" xml:space="preserve">
+    <value>EMT Now</value>
+  </data>
+  <data name="AcercaDeCommand" xml:space="preserve">
+    <value>acerca de...</value>
+  </data>
+  <data name="CopyrightText" xml:space="preserve">
+    <value>Copyright ©  2014 Iván Reinoso</value>
+  </data>
+  <data name="lblDescripcionAplicacion.Text" xml:space="preserve">
+    <value>Con EMT Now tendrás al alcance de tu teléfono toda la información relativa al servicio de autobuses de la Empresa Municipal de Transportes de Madrid, gracias a su servicio de Datos Abiertos:</value>
+  </data>
+  <data name="lblContactar.Text" xml:space="preserve">
+    <value>Para cualquier problema, mejora o sugerencia no dudes en ponerte en contacto conmigo a través de los siguientes canales:</value>
+  </data>
+  <data name="CalcularRutaCommand" xml:space="preserve">
+    <value>Calcular trayecto</value>
+  </data>
+  <data name="lblDestinoRuta.Text" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="lblOrigenRuta.Text" xml:space="preserve">
+    <value>Origen</value>
+  </data>
+  <data name="btnCalcularRuta.Content" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="lblTituloCalcularRuta.Text" xml:space="preserve">
+    <value>Calcular trayecto</value>
+  </data>
+  <data name="rbMinRecorridoPie.Content" xml:space="preserve">
+    <value>Mínimo recorrido a pie</value>
+  </data>
+  <data name="rbMinTiempo.Content" xml:space="preserve">
+    <value>Mínimo tiempo</value>
+  </data>
+  <data name="rbMinTransbordos.Content" xml:space="preserve">
+    <value>Mínimos transbordos</value>
+  </data>
+  <data name="DireccionNoEncontradaText" xml:space="preserve">
+    <value>La dirección no ha sido encontrada.</value>
+  </data>
+  <data name="DireccionObligatoriaText" xml:space="preserve">
+    <value>Es necesario indicar una dirección.</value>
+  </data>
+  <data name="lblTituloRutaCalculada.Text" xml:space="preserve">
+    <value>Ruta calculada</value>
+  </data>
+  <data name="ErrorCalculoRutaText" xml:space="preserve">
+    <value>Error en el cálculo del trayecto.</value>
+  </data>
+  <data name="ParadaText" xml:space="preserve">
+    <value>Parada</value>
+  </data>
+</root>

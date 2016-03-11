@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="EMTNow.Views.AcercaDe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EMTNow.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#3279C1" Margin="0,-26,0,0" x:Name="gridAcercaDe">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0" Grid.Row="0" Margin="20,60,0,0" x:Name="lblVersionAplicacion" FontSize="30" />
+        <TextBlock Grid.Column="0" Grid.Row="1" Margin="20,0,0,0" x:Name="lblCopyright" FontSize="15" FontWeight="Thin" />
+        <TextBlock Grid.Column="0" Grid.Row="2" Margin="20,30,20,0" x:Uid="lblDescripcionAplicacion" FontSize="18" FontWeight="Normal" TextAlignment="Justify" TextWrapping="Wrap"/>
+        <HyperlinkButton Grid.Column="0" Grid.Row="3" NavigateUri="http://www.emtmadrid.es" Width="100" Height="100" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Image Source="ms-appx:///Images/powered.png"></Image>
+        </HyperlinkButton>
+        <TextBlock Grid.Column="0" Grid.Row="4" Margin="20,20,20,0" x:Uid="lblContactar" FontSize="18" FontWeight="Normal" TextAlignment="Justify" TextWrapping="Wrap"/>
+        <TextBlock Grid.Column="0" Grid.Row="5" Margin="20,20,0,0">
+            <Hyperlink NavigateUri="mailto:emtnow@outlook.es" FontSize="18">
+                emtnow@outlook.es
+            </Hyperlink>
+        </TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="6" Margin="20,10,0,0">
+            <Hyperlink NavigateUri="https://iregablog.wordpress.com/" FontSize="18">
+                https://iregablog.wordpress.com
+            </Hyperlink>
+        </TextBlock>
+    </Grid>
+</Page>
